@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Navbars.css */
+.no-dropdown-icon .dropdown-toggle::after {
+  display: none !important;
+}
+
